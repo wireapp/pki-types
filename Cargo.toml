@@ -15,6 +15,9 @@ default = ["alloc"]
 alloc = []
 std = ["alloc"]
 
+[dependencies]
+fluvio-wasm-timer = "0.2"
+
 [package.metadata.docs.rs]
 all-features = true
 rustdoc-args = ["--cfg", "docsrs"]

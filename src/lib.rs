@@ -40,7 +40,7 @@ use core::fmt;
 use core::ops::Deref;
 use core::time::Duration;
 #[cfg(feature = "std")]
-use std::time::SystemTime;
+use fluvio_wasm_timer::SystemTime;
 
 /// A DER-encoded X.509 private key, in one of several formats
 ///
